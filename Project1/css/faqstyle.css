@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(167, 167, 167);
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	border-bottom: 2px solid #000000;
+}
+p {
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+ul.learn {
+	font-size: 18px;
+	color: #000000;
+}
+.accordion {
+	background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	font-weight: bold;
+	border-style: ridge;
+	border-color: #d3d3d3;
+}
+.accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.accordion.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	border-style: ridge;
+	border-color: #d3d3d3;
+}
+}

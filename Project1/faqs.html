@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SWDV-235 - Project 1</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+    <link href="css/faqstyle.css" rel="stylesheet">
+
+    <!-- JavaScripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">About<span class="sr-only">(current)</span></a></li>
+                <li><a href="showtimes.html">Showtimes</a></li>
+				<li><a href="upcoming.html">Upcoming</a></li>
+                <li class="active"><a href="faqs.html">FAQS</a></li>
+				<li><a href="newsletter.aspx">Newsletter</a></li>
+                <li><a href="contact.aspx">Contact</a></li>
+            </ul>
+        </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+</nav>
+
+<main>
+<div class="heading container well">
+        <h1>Frequently Asked Questions</h1>
+    </div>
+	<!-- accordion container -->
+	<div class="container">
+		<button class="accordion">What is Moonlight Cinema?</button>
+		<div class="panel">
+			<p>Moonlight Cinema is the leading movie theater that everyone wants to experience.</p>
+		</div>
+
+		<button class="accordion">What kind of movies do we run?</button>
+		<div class="panel">
+			<p>We run any movies for any ages.</p>
+		</div>
+
+		<button class="accordion">Where is the theater located?</button>
+		<div class="panel">
+			<p>We are located downtown Boise.</p>
+		</div>
+		<button class="accordion">Where can I purchase tickets?</button>
+		<div class="panel">
+			<p>We offer the ability to purchase tickets in person or online.</p>
+		</div>
+		<button class="accordion">Do you do private screenings?</button>
+		<div class="panel">
+			<p>We do offer private screenings, but that will cost extra.</p>
+		</div>
+	</div>
+	<script src="js/faqstyle.js"></script>
+</main>
+</body>
+</html>

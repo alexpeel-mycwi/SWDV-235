@@ -1,0 +1,25 @@
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(167, 167, 167);
+}
+
+#numOfAError, #numOfBError, #numOfCError {
+    color: red;
+}
+
+.form-control {
+    width: 25%;
+}
+
+.extras > .container > button {
+    width: 20%;
+    min-width: 150px;
+    margin: 10px auto;
+}
+
+#price {
+    font-size: 2em;
+}

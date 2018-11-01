@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(167, 167, 167);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-control {
+    width: 75%
+}
+
+.errorText {
+    color: red;
+}
+
+body {
+	overflow-x: hidden;
+}
